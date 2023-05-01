@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SecondFragment">
+
+    <ImageView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_weight="1"
+        android:maxWidth="50dp"
+        android:maxHeight="50dp"
+        android:minWidth="50dp"
+        android:minHeight="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAlignment="center">
+
+        <EditText
+            android:id="@+id/guessNumber"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint=' ?'
+            android:inputType="number"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/sign"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/second_argument"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/value2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text='='
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="="
+            android:textSize="34sp" />
+    </LinearLayout>
+
+</LinearLayout>
